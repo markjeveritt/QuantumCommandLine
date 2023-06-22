@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96237B4E28B399CF00CD2FB4 /* Chapter11_DuffingQSD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96237B4D28B399CE00CD2FB4 /* Chapter11_DuffingQSD.swift */; };
+		96237B5028BA27CA00CD2FB4 /* Chapter11_QSD_Moving_Basis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96237B4F28BA27C900CD2FB4 /* Chapter11_QSD_Moving_Basis.swift */; };
+		96237B5228BBB3B800CD2FB4 /* UtilityCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96237B5128BBB3B800CD2FB4 /* UtilityCode.swift */; };
+		96237B5428C3570800CD2FB4 /* Chapter11_movingBasis_AdaptiveDimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96237B5328C3570700CD2FB4 /* Chapter11_movingBasis_AdaptiveDimension.swift */; };
+		96237B5628C4CDA000CD2FB4 /* Chapter_11_DuffingQSD_with_moving_basis_sparse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96237B5528C4CDA000CD2FB4 /* Chapter_11_DuffingQSD_with_moving_basis_sparse.swift */; };
+		96237B5928CB543800CD2FB4 /* Chapter09_EigenExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96237B5828CB543800CD2FB4 /* Chapter09_EigenExample.swift */; };
+		96434D3E279C27A6002796DF /* Chapter08_JaynnesCummingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96434D3D279C27A6002796DF /* Chapter08_JaynnesCummingsModel.swift */; };
+		96434D40279C284F002796DF /* Chapter02_DuffingOscillatirPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96434D3F279C284F002796DF /* Chapter02_DuffingOscillatirPDF.swift */; };
+		9667DC2526CE6F31002CEF77 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9667DC2426CE6F31002CEF77 /* main.swift */; };
+		9667DC2F26CECB3A002CEF77 /* Quantum in Frameworks */ = {isa = PBXBuildFile; productRef = 9667DC2E26CECB3A002CEF77 /* Quantum */; };
+		966CCFDA28A1463B0018D15B /* Chapter04_WignerFunctionPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966CCFD928A1463B0018D15B /* Chapter04_WignerFunctionPlot.swift */; };
+		966CCFDC28AA51DC0018D15B /* CoverImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966CCFDB28AA51DC0018D15B /* CoverImage.swift */; };
+		966CCFDE28AB828F0018D15B /* Chapter04SpinWigner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966CCFDD28AB828F0018D15B /* Chapter04SpinWigner.swift */; };
+		966CCFE228ACEB060018D15B /* Chapter08_Wigner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966CCFE128ACEB060018D15B /* Chapter08_Wigner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9667DC1F26CE6F31002CEF77 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		96237B4D28B399CE00CD2FB4 /* Chapter11_DuffingQSD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter11_DuffingQSD.swift; sourceTree = "<group>"; };
+		96237B4F28BA27C900CD2FB4 /* Chapter11_QSD_Moving_Basis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter11_QSD_Moving_Basis.swift; sourceTree = "<group>"; };
+		96237B5128BBB3B800CD2FB4 /* UtilityCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityCode.swift; sourceTree = "<group>"; };
+		96237B5328C3570700CD2FB4 /* Chapter11_movingBasis_AdaptiveDimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter11_movingBasis_AdaptiveDimension.swift; sourceTree = "<group>"; };
+		96237B5528C4CDA000CD2FB4 /* Chapter_11_DuffingQSD_with_moving_basis_sparse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter_11_DuffingQSD_with_moving_basis_sparse.swift; sourceTree = "<group>"; };
+		96237B5828CB543800CD2FB4 /* Chapter09_EigenExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter09_EigenExample.swift; sourceTree = "<group>"; };
+		96434D3D279C27A6002796DF /* Chapter08_JaynnesCummingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter08_JaynnesCummingsModel.swift; sourceTree = "<group>"; };
+		96434D3F279C284F002796DF /* Chapter02_DuffingOscillatirPDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter02_DuffingOscillatirPDF.swift; sourceTree = "<group>"; };
+		9667DC2126CE6F31002CEF77 /* QuantumCommandLine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = QuantumCommandLine; sourceTree = BUILT_PRODUCTS_DIR; };
+		9667DC2426CE6F31002CEF77 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		966CCFD928A1463B0018D15B /* Chapter04_WignerFunctionPlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter04_WignerFunctionPlot.swift; sourceTree = "<group>"; };
+		966CCFDB28AA51DC0018D15B /* CoverImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImage.swift; sourceTree = "<group>"; };
+		966CCFDD28AB828F0018D15B /* Chapter04SpinWigner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter04SpinWigner.swift; sourceTree = "<group>"; };
+		966CCFE128ACEB060018D15B /* Chapter08_Wigner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter08_Wigner.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9667DC1E26CE6F31002CEF77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9667DC2F26CECB3A002CEF77 /* Quantum in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9667DC1826CE6F31002CEF77 = {
+			isa = PBXGroup;
+			children = (
+				9667DC2326CE6F31002CEF77 /* QuantumCommandLine */,
+				9667DC2226CE6F31002CEF77 /* Products */,
+				9667DC2B26CE8276002CEF77 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9667DC2226CE6F31002CEF77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9667DC2126CE6F31002CEF77 /* QuantumCommandLine */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9667DC2326CE6F31002CEF77 /* QuantumCommandLine */ = {
+			isa = PBXGroup;
+			children = (
+				9667DC2426CE6F31002CEF77 /* main.swift */,
+				96434D3D279C27A6002796DF /* Chapter08_JaynnesCummingsModel.swift */,
+				96434D3F279C284F002796DF /* Chapter02_DuffingOscillatirPDF.swift */,
+				966CCFD928A1463B0018D15B /* Chapter04_WignerFunctionPlot.swift */,
+				966CCFDB28AA51DC0018D15B /* CoverImage.swift */,
+				966CCFDD28AB828F0018D15B /* Chapter04SpinWigner.swift */,
+				966CCFE128ACEB060018D15B /* Chapter08_Wigner.swift */,
+				96237B4D28B399CE00CD2FB4 /* Chapter11_DuffingQSD.swift */,
+				96237B4F28BA27C900CD2FB4 /* Chapter11_QSD_Moving_Basis.swift */,
+				96237B5128BBB3B800CD2FB4 /* UtilityCode.swift */,
+				96237B5328C3570700CD2FB4 /* Chapter11_movingBasis_AdaptiveDimension.swift */,
+				96237B5528C4CDA000CD2FB4 /* Chapter_11_DuffingQSD_with_moving_basis_sparse.swift */,
+				96237B5828CB543800CD2FB4 /* Chapter09_EigenExample.swift */,
+			);
+			path = QuantumCommandLine;
+			sourceTree = "<group>";
+		};
+		9667DC2B26CE8276002CEF77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9667DC2026CE6F31002CEF77 /* QuantumCommandLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9667DC2826CE6F31002CEF77 /* Build configuration list for PBXNativeTarget "QuantumCommandLine" */;
+			buildPhases = (
+				9667DC1D26CE6F31002CEF77 /* Sources */,
+				9667DC1E26CE6F31002CEF77 /* Frameworks */,
+				9667DC1F26CE6F31002CEF77 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuantumCommandLine;
+			packageProductDependencies = (
+				9667DC2E26CECB3A002CEF77 /* Quantum */,
+			);
+			productName = QuantumCommandLine;
+			productReference = 9667DC2126CE6F31002CEF77 /* QuantumCommandLine */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9667DC1926CE6F31002CEF77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9667DC2026CE6F31002CEF77 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 9667DC1C26CE6F31002CEF77 /* Build configuration list for PBXProject "QuantumCommandLine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9667DC1826CE6F31002CEF77;
+			productRefGroup = 9667DC2226CE6F31002CEF77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9667DC2026CE6F31002CEF77 /* QuantumCommandLine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9667DC1D26CE6F31002CEF77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96237B5628C4CDA000CD2FB4 /* Chapter_11_DuffingQSD_with_moving_basis_sparse.swift in Sources */,
+				96237B5028BA27CA00CD2FB4 /* Chapter11_QSD_Moving_Basis.swift in Sources */,
+				96237B5228BBB3B800CD2FB4 /* UtilityCode.swift in Sources */,
+				96237B5428C3570800CD2FB4 /* Chapter11_movingBasis_AdaptiveDimension.swift in Sources */,
+				96237B4E28B399CF00CD2FB4 /* Chapter11_DuffingQSD.swift in Sources */,
+				966CCFDA28A1463B0018D15B /* Chapter04_WignerFunctionPlot.swift in Sources */,
+				966CCFDC28AA51DC0018D15B /* CoverImage.swift in Sources */,
+				96237B5928CB543800CD2FB4 /* Chapter09_EigenExample.swift in Sources */,
+				966CCFE228ACEB060018D15B /* Chapter08_Wigner.swift in Sources */,
+				96434D40279C284F002796DF /* Chapter02_DuffingOscillatirPDF.swift in Sources */,
+				966CCFDE28AB828F0018D15B /* Chapter04SpinWigner.swift in Sources */,
+				96434D3E279C27A6002796DF /* Chapter08_JaynnesCummingsModel.swift in Sources */,
+				9667DC2526CE6F31002CEF77 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9667DC2626CE6F31002CEF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9667DC2726CE6F31002CEF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "-O";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9667DC2926CE6F31002CEF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3VT8KYUC7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9667DC2A26CE6F31002CEF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3VT8KYUC7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9667DC1C26CE6F31002CEF77 /* Build configuration list for PBXProject "QuantumCommandLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9667DC2626CE6F31002CEF77 /* Debug */,
+				9667DC2726CE6F31002CEF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9667DC2826CE6F31002CEF77 /* Build configuration list for PBXNativeTarget "QuantumCommandLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9667DC2926CE6F31002CEF77 /* Debug */,
+				9667DC2A26CE6F31002CEF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9667DC2E26CECB3A002CEF77 /* Quantum */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Quantum;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9667DC1926CE6F31002CEF77 /* Project object */;
+}
